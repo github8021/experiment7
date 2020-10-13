@@ -27,8 +27,8 @@ operator_type=str(input("请选择要执行的运算符：+、-、*、/:"))
 if(operator_type=='+'):
     print("计算结果为{}".format(add(first_number,second_number)))
 elif(operator_type=='-'):
-    print("计算结果为{}".format())
+    print("计算结果为{}".format(subtraction(first_number,second_number)))
 elif(operator_type=='*'):
-    print("计算结果为{}".format())
+    print("计算结果为{}".format(multiplication(first_number,second_number)))
 elif(operator_type=='/'):
-    print("计算结果为{}".format())
+    print("计算结果为{}".format(division(first_number,second_number)))
